@@ -6,6 +6,7 @@ tags:
     - erd
     - backend
     - database
+    - conceptual data modeling
 
 last_modified_at: 2023-06-03T16:15:10
 ---
