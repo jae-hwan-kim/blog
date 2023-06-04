@@ -77,11 +77,6 @@ tag 를 분리한 후, topic 과 tag 에 대한 `Mapping Table`을 만들었다.
 
 ---
 
-
-<br>
-
----
-
 # 참고 사이트
 
 * 유튜브 [관계형 데이터 모델링](https://www.youtube.com/watch?v=1d38YZKCM88&list=PLuHgQVnccGMDF6rHsY9qMuJMd295Yk4sa) 을 정리한 내용입니다.
