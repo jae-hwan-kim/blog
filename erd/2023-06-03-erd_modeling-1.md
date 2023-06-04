@@ -147,21 +147,14 @@ last_modified_at: 2023-06-03T16:15:10
 
 개념적 모델링 ERD에 Cardinality 와 Optionality 를 추가해보자.
 
+<img src="https://github.com/JaeHwan-s-WebServeClass/webserver-nginx/assets/85930183/99783a4d-70d8-4aec-a885-58b2c9e25361" width="80%">
 
+<br>
 
 ---
-
-## 2-5. 개념적 데이터 모델링
-
-
-
-
-
-
 
 # 참고 사이트
 
 * 유튜브 [관계형 데이터 모델링](https://www.youtube.com/watch?v=1d38YZKCM88&list=PLuHgQVnccGMDF6rHsY9qMuJMd295Yk4sa) 을 정리한 내용입니다.
-
 
 
