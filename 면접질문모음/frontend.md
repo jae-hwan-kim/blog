@@ -40,13 +40,19 @@
 
 ---
 
-### Q 호이스팅이란? -> ❗️다시 정리하기
+### Q 호이스팅이란? -> var, let, const, 함수선언식, 함수표현식
+
+[참고 사이트](https://gmlwjd9405.github.io/2019/04/22/javascript-hoisting.html)
 
 모든 선언이 코드의 선두로 끌어 올려진 것처럼 동작하는 자바스크립트 고유의 특징.
 
-예시 ) <br>
-* var 는 메모리 적재, 초기화가 동시에 이루어짐
-* let, const 는 메모리 적재만 호이스팅 되기 때문에 실행 결과가
+자바스크립트 함수는 실행되기 전에 함수 안에 필요한 변수값들을 모두 모아서 유효 범위의 최상단에 선언한다. 자바스크립트 Parser가 함수 실행 전 해당 함수를 한 번 훑는다. 함수 안에 존재하는 변수/함수선언에 대한 정보를 기억하고 있다가 실행시킨다.
+
+var 변수 선언과 함수선언문에서만 호이스팅이 일어난다.
+* var 변수/함수의 선언만 위로 끌어 올려지며, 할당은 끌어 올려지지 않는다.
+* let/const 변수 선언과 함수표현식에서는 호이스팅이 발생하지 않는다.
+
+예시 )
 
 ```js
 console.log(name1) // undefined 출력
@@ -54,8 +60,8 @@ var name1 = '자몽';
 
 ///////////////////
 
-console.log(name2)
-let name2 = '자몽'; // ReferenceError 에러출력
+console.log(name2) // ReferenceError 에러출력
+let name2 = '자몽';
 ```
 
 
@@ -65,13 +71,20 @@ let name2 = '자몽'; // ReferenceError 에러출력
 
 ---
 
-### Q 클로저란?
+### Q 클로저란? -> ❗️여기부터 다시봐야함
+
+C 의 포인터처럼 중요한 개념이다.
+
+[참고 사이트](https://unikys.tistory.com/309)
 
 <br>
 
 ---
 
 ### Q CSS에서 margin과 padding 이란?
+
+* margin 은 바깥쪽 여백
+* padding 은 안쪽 여백
 
 <br>
 
